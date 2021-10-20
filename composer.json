@@ -1,0 +1,19 @@
+{
+    "name": "gustadevrj/projeto_passo_a_passo_003",
+    "authors": [
+        {
+            "name": "Eu",
+            "email": "xxx@xxx.com.br"
+        }
+    ],
+    "require": {
+    	"slim/slim":"2.0",
+    	"rain/raintpl":"3.0.0",
+    	"phpmailer/phpmailer":"5.2.22"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vendor\\": "vendor\\Classes\\php-classes\\src"
+        }
+    }
+}
